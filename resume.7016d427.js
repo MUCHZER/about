@@ -3,4 +3,4 @@ parcelRequire=function(e,r,n,t){var i="function"==typeof parcelRequire&&parcelRe
 },{}],4:[function(require,module,exports) {
 "use strict";require("bulma"),require("./resume.css"),document.addEventListener("DOMContentLoaded",function(){document.getElementsByClassName("toggleable")});
 },{"bulma":8,"./resume.css":8}]},{},[4], null)
-//# sourceMappingURL=/resume.7016d427.map
+//# sourceMappingURL=about/resume.7016d427.map
