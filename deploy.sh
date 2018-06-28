@@ -6,6 +6,7 @@ echo "Starting deploy..."
 mkdir /tmp/deploy-github && \
 cd /tmp/deploy-github && \
 git clone -b gh-pages https://github.com/MUCHZER/about.git && \
+cd about && \
 git rm -f * && \
 cp $DIR/dist/* . && \
 git add * && \
