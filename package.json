@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pracel build resume.html"
+    "build": "pracel build resume.html -d dist"
   },
   "repository": {
     "type": "git",
