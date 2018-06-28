@@ -4,11 +4,13 @@
   "description": "Github page for muchzer",
   "main": "resume.js",
   "dependencies": {
-    "bulma": "^0.7.1"
+    "bulma": "^0.7.1",
+    "parcel-bundler": "^1.9.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pracel build resume.html"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/MUCHZER/about.gitissues"
   },
-  "homepage": "https://github.com/MUCHZER/about.git#readme"
+  "homepage": "https://github.com/MUCHZER/about.git#readme",
+  "gh-pages-deploy": {
+    "staticpath": "dist",
+    "prep": [
+      "build"
+    ],
+    "commit": "gh-page build",
+    "noprompt": false
+  }
 }
