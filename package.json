@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MUCHZER/muchzer.github.io.git"
+    "url": "git+https://github.com/MUCHZER/about.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MUCHZER/muchzer.github.io/issues"
+    "url": "https://github.com/MUCHZER/about.gitissues"
   },
-  "homepage": "https://github.com/MUCHZER/muchzer.github.io#readme"
+  "homepage": "https://github.com/MUCHZER/about.git#readme"
 }
