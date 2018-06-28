@@ -1,0 +1,23 @@
+{
+  "name": "muchzer.github.io",
+  "version": "0.0.1",
+  "description": "Github page for muchzer",
+  "main": "resume.js",
+  "dependencies": {
+    "bulma": "^0.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MUCHZER/muchzer.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MUCHZER/muchzer.github.io/issues"
+  },
+  "homepage": "https://github.com/MUCHZER/muchzer.github.io#readme"
+}
