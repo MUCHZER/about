@@ -10,8 +10,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pracel build resume.html -d dist",
-    "deploy": "build && ./deploy.sh"
+    "build": "parcel build index.html -d dist --public-url ./about/",
+    "deploy": "npm run build && ./deploy.sh"
   },
   "repository": {
     "type": "git",
