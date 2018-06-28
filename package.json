@@ -21,13 +21,5 @@
   "bugs": {
     "url": "https://github.com/MUCHZER/about.gitissues"
   },
-  "homepage": "https://github.com/MUCHZER/about.git#readme",
-  "gh-pages-deploy": {
-    "staticpath": "dist",
-    "prep": [
-      "build"
-    ],
-    "commit": "gh-page build",
-    "noprompt": false
-  }
+  "homepage": "https://github.com/MUCHZER/about.git#readme"
 }
